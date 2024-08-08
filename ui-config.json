@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    {
+      "name": "token",
+      "type": "text",
+      "prompt": "Fastmail API Token",
+      "validate_as": "string"
+    }
+  ]
+}

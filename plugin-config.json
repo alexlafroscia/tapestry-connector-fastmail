@@ -1,0 +1,7 @@
+{
+  "id": "com.alexlafroscia.fastmail",
+  "display_name": "Fastmail",
+  "site": "https://api.fastmail.com/jmap/session",
+  "needs_verification": true,
+  "verify_variables": true
+}

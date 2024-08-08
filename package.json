@@ -1,4 +1,17 @@
 {
   "name": "com.alexlafroscia.fastmail",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/plugin.ts --bundle --outfile=plugin.js --tree-shaking=false --format=cjs"
+  },
+  "dependencies": {
+    "fetch-polyfill": "npm:@alexlafroscia/tapestry-connector-fetch-polyfill@^1.0.0",
+    "jmap-jam": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/tapestry-connector-runtime": "npm:@alexlafroscia/tapestry-connector-type-defs@^1.0.0",
+    "esbuild": "^0.23.0"
+  },
   "packageManager": "yarn@4.0.2"
 }
